@@ -188,7 +188,7 @@
   height: 890px;
   position: relative;
   background-color: #f2f2f2;
-  z-index: -2;
+  z-index: 0;
   padding-top: 1px;
 }
 .feynman__title{
@@ -201,6 +201,7 @@
   font-style: 600;
 }
 .feynman__subtitle{
+  margin: 0;
   margin: auto;
   text-align: center;
   margin-top: 70px;
