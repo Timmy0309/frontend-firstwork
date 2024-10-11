@@ -4,9 +4,4 @@
     margin: auto;
     padding: 0;
     display: flex;
-    justify-content: space-between;
-}
-
-.cards_count_two{
-    justify-content: left;
 }

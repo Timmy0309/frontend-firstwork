@@ -1,7 +1,10 @@
 /*основное*/
 @import url(../vendor/normalize.css);
 @import url(../block/root/root.css);
+
+/* допы всякие */
 @import url(../block/link/link.css);
+@import url(../block/rotation/rotation.css);
 
 /* header и logo */
 @import url(../block/header/header.css);
@@ -11,6 +14,11 @@
 @import url(../block/header/__subtitle/header__subtitle.css);
 @import url(../block/header/__main-illustation/header__main-illustration.css);
 @import url(../block/header/__square-pic/header__square-pic.css);
+
+/* заголовок и подзаголовок для секций */
+@import url(../block/section-title/section-title.css);
+@import url(../block/section-subtitle/section-subtitle.css);
+@import url(../block/section-title/_bg_dark/section_bg_dark.css);
 
 /* секция description */
 @import url(../block/description/description.css);
@@ -33,13 +41,24 @@
  @import url(../block/cards/__description/cards__description.css);
 
 
+ /* video */
+ @import url(../block/video/video.css);
+ @import url(../block/video/__iframes/video__iframes.css);
+ @import url(../block/video/__iframe/video__iframe.css);
+
+ /* секция oakley */
+@import url(../block/oakley/oakley.css);
+
+/* секция feynman */
+@import url(../block/feynman/feynman.css);
+@import url(../block/feynman/__title/feynman__title.css);
+@import url(../block/feynman/__subtitle/feynman__subtitle.css);
+@import url(../block/feynman/__image/feynman__image.css);
+@import url(../block/feynman/__link/feynman__link.css);
+
 /* секция digits */
 @import url(../block/digits/digits.css);
 
-/* заголовок и подзаголовок для секций */
-@import url(../block/section-title/section-title.css);
-@import url(../block/section-subtitle/section-subtitle.css);
-@import url(../block/section-title/_bg_dark/section_bg_dark.css);
 
 /* table */
 @import url(../block/table/table.css);
@@ -49,17 +68,26 @@
 @import url(../block/table/__headir/table__headir.css);
 @import url(../block/table/__text/table__text.css);
 
-/* секция feynman */
-@import url(../block/feynman/feynman.css);
-@import url(../block/feynman/__title/feynman__title.css);
-@import url(../block/feynman/__subtitle/feynman__subtitle.css);
-@import url(../block/feynman/__image/feynman__image.css);
-@import url(../block/feynman/__link/feynman__link.css);
+/* секция khan */
+@import url(../block/khan/khan.css);
+@import url(../block/khan/__container/khan__container.css);
+@import url(../block/khan/__author/khan__author.css);
+@import url(../block/khan/__title/khan__title.css);
+@import url(../block/khan/__quote/khan__quote.css);
+@import url(../block/khan/__quote-author/khan__quote-author.css);
+@import url(../block/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../block/khan/__book-container/khan__book-container.css);
+@import url(../block/khan/__book-pic/khan__book-pic.css);
+@import url(../block/khan/__buy-link/khan__buy-link.css);
 
 /* секция kaufman */
 @import url(../block/kaufman/kaufman.css);
 @import url(../block/kaufman/__triangle/kaufman__triangle.css);
 
+/* секция resources */
+@import url(../block/resources/resources.css);
+@import url(../block/resources/__logo-zone/resources__logo-zone.css);
+@import url(../block/resources/__link/resources__link.css);
 
 /* footer */
 @import url(../block/footer/footer.css);
